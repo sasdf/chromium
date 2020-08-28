@@ -182,7 +182,7 @@ vars = {
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling V8
   # and whatever else without interference from each other.
-  'v8_revision': 'efeaf3d82f81d47b3bf40c9c50055493f48ce544',
+  'v8_revision': 'd59fe391b23c57fb891a20a528cbc131195413ee',
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling swarming_client
   # and whatever else without interference from each other.
@@ -249,7 +249,7 @@ vars = {
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling devtools-frontend
   # and whatever else without interference from each other.
-  'devtools_frontend_revision': '9e4db33a563ef629331e4b24415c653929e5a45f',
+  'devtools_frontend_revision': '7b921656250415278833f4f126576907dfb65532',
   # Three lines of non-changing comments so that
   # the commit queue can handle CLs rolling libprotobuf-mutator
   # and whatever else without interference from each other.
@@ -1453,7 +1453,7 @@ deps = {
   },
 
   'src/third_party/webrtc':
-    Var('webrtc_git') + '/src.git' + '@' + '48b82798132248dfa1aaf0ed3dcac57a44a6855f',
+    Var('webrtc_git') + '/src.git' + '@' + 'e9cd6177eb215d57fee31607a2cf946cb8ef5ed9',
 
   'src/third_party/libgifcodec':
      Var('skia_git') + '/libgifcodec' + '@'+  Var('libgifcodec_revision'),
